@@ -1,3 +1,12 @@
+# yaevent
+
+Yet another event library based on select(2) just for fun.
+
+## Example
+
+Simple TCP Server
+
+```c
 #include <stdio.h>
 #include "yaevent.h"
 #include <sys/types.h>
@@ -38,3 +47,5 @@ int main()
 
   return 0;
 }
+
+```
